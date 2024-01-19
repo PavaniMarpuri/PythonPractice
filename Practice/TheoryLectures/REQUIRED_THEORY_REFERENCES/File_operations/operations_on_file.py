@@ -5,6 +5,7 @@
 
 -> file_path can be relative path (just file name is enough if text file and code file are in same directory)
     and absolute path(full path of the file)
+    Absolute paths start from the root, while relative paths start from the current location.
 -> generally it is recommended to use relative path
 -> mode can be
             r -- read mode

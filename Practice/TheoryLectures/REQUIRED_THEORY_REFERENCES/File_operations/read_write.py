@@ -16,7 +16,7 @@ file_path_text = "example.txt" # Relative File Path
 
 
 # # Reading from the text file
-# with open(file_path_text, "r") as text_file: # Read only permission, NO WRITING.
+# with open(file_path_text, "r") as text_file: # Read only permission, NO WRITING (will not create file, if it is deos not exist yet)
 #     content = text_file.read()
 #     print("Content of the text file:")
 #     print(content)
