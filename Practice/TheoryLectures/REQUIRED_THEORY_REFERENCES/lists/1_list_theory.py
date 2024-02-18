@@ -32,6 +32,9 @@ print(f"Current pokemon: {current_poke_hand}")
 current_poke_hand.pop(0)
 print(f"Current pokemon: {current_poke_hand}")
 
+# adding two lists
+list_3 = word_list + my_pokemon
+
 """  ============= List Comprehension example ================== """
 
 numbers = [2, 4, 6, 8, 10]

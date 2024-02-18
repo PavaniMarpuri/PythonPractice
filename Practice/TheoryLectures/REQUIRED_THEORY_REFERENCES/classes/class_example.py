@@ -2,7 +2,7 @@
 
 class Employee:
 
-    # defining a parameterized constructor( here self is nothing but "this" in java
+    # defining a parameterized constructor( here self is nothing but "this" in java)
 
     def __init__(self, emp_name, emp_id, emp_position, emp_salary):
         self.emp_name = emp_name
