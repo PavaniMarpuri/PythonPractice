@@ -57,3 +57,31 @@ list_3 = word_list + my_pokemon
 
 """
 
+"""
+=> method overloading:- 
+
+In Python, compile-time polymorphism is primarily achieved through function overloading, 
+although Python does not support true function overloading.
+However, you can define functions with the same name in Python, 
+but only the latest defined function will be considered.
+"""
+
+"""
+-> python supports multiple inheritance, it is developer responsibility to use inherited classes methods wisely 
+and making sure both the inherited classes should not have same named methods
+
+class Vehicle:
+    pass
+class Electric:
+    pass
+class HybridCar(Vehicle, Electric):
+    pass
+"""
+
+"""
+=> Destructor :- It is a special method that gets called when an object is about to be destroyed.
+It is used to perform clean up actions. (opposite to constructor)
+
+def __del__(self):
+    print(f"{self.name} {self.age} {etc} {etc} destroyed")
+"""

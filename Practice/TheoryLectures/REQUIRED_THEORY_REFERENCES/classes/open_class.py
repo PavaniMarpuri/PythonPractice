@@ -7,11 +7,12 @@ class Worker:
     def change_name(self, name):
         self.name = name
 
+
 worker1 = Worker("James")
 worker1.change_name("Peter")
 Worker.department = "IT"
 worker2 = Worker("David")
-
+worker2.department = "Engineering"
 # print(worker1.name)
 # print(worker1.department)
 # print(worker2.name)
@@ -28,6 +29,7 @@ print(tabulate(worker_data, headers=headers))
 def print_name(name):
     print(name)
     return name
+
 
 name = print_name("Armand")
 print(name)

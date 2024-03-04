@@ -50,6 +50,10 @@ dogs_info = [dog.name for dog in my_dogs]
 print(dogs_info)
 """
 Multiple Inheritance Example
+
+-> python supports multiple inheritance, it is developer responsibility to use inherited classes methods wisely 
+and making sure both the inherited classes should not have same named methods
+
 """
 class Vehicle:
     def __init__(self, brand) -> None:
