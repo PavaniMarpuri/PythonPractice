@@ -107,21 +107,22 @@ greeting = "Hello"
 print(greeting[1::2])  # o/p :- el ( start from index '1' and till end. print evry second letter )
 print(greeting[4:1:-1])  # o/p :- oll ( start from index '4' and till index '1' note here the index 1 is not include.
 # step is -1 indicates reverse order )
-print("forward "+greeting[0:4:1])  # o/p :- Hell ( start from index '0' and till index '4' note here the index 4 is not include.
+print("forward " + greeting[
+                   0:4:1])  # o/p :- Hell ( start from index '0' and till index '4' note here the index 4 is not include.
 # step is 1 indicates forward order )
-print("forward "+greeting[4:0:1])  # wont print anything
+print("forward " + greeting[4:0:1])  # wont print anything
 print("Hello " + greeting[::])
-print("forward "+greeting[0:4:2]) # Hl print evry 2nd letter after printing one letter
-print("reverse "+greeting[4:0:-2]) #ol print evry 2nd letter after printing one letter
+print("forward " + greeting[0:4:2])  # Hl print evry 2nd letter after printing one letter
+print("reverse " + greeting[4:0:-2])  # ol print evry 2nd letter after printing one letter
 
 """
 Some useful escape sequences are listed below:
 \n - Newline - this will insert the equivalent of pressing enter to take the
 insertion point for output to the next line
 \t - Tab - inserts a tab
-\s - Space - inserts a space
-
 """
+# \s - Space - inserts a space
+
 
 # ============== count ===================
 my_str = "Let's learn some more about strings"
@@ -177,5 +178,7 @@ print(f">{new_rstr}<")
 
 my_str = "Let's;learn;some;more;about;strings"
 my_list = my_str.split(";")
-
 print(f"split list: {my_list}")
+
+ness_str = "mystrness".strip("ness")
+print(f"ness str: {ness_str}")
