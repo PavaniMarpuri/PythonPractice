@@ -1,4 +1,3 @@
-
 name = " "
 while name == " " or not name.isalpha():
     name = input("Please enter your name ")
